@@ -12,4 +12,9 @@ public class TestController {
         return echo;
     }
 
+    @GetMapping
+    public String hejsan() {
+        return "Welcome";
+    }
+
 }
